@@ -12,6 +12,7 @@ var BLOCKED_MESSAGES = [
 var LIST_FOLDER = "list";
 var RESULT_FOLDER = "result";
 var TIMEOUT_MS = 10000;
+var SAVE_INTERVAL = 10;
 var MAX_REDIRECTS = 10;
 
 // Get script directory
@@ -30,7 +31,7 @@ function parseUrlsFromFile(filePath) {
     var urls = [];
     if (!fso.FileExists(filePath)) return urls;
     
-    var file = fso.OpenTextFile(filePath, 1, false, -1); // UTF-8
+    var file = fso.OpenTextFile(filePath, 1, false, 0); // ASCII/ANSI (default)
     while (!file.AtEndOfStream) {
         var line = file.ReadLine();
         line = line.replace(/^\s+|\s+$/g, ""); // trim
@@ -212,7 +213,7 @@ function main() {
             var url = urls[i];
             var originalUrl = url.replace(/^https?:\/\//, "");
             
-            WScript.StdOut.Write("  Checking: " + originalUrl + " ... ");
+            WScript.StdOut.Write("  [" + (i + 1) + "/" + urls.length + "] " + originalUrl + " ... ");
             
             var result = checkUrl(url);
             totalChecked++;
@@ -232,6 +233,10 @@ function main() {
                     finalUrl: result.finalUrl
                 });
                 totalAccessible++;
+                
+                if (accessibleUrls.length % SAVE_INTERVAL === 0) {
+                    writeResults(categoryName, accessibleUrls);
+                }
             } else {
                 WScript.Echo("[ERROR: " + (result.error || "Unknown") + "]");
                 blockedCount++;
