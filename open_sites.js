@@ -31,7 +31,7 @@ function parseUrlsFromFile(filePath) {
 function openUrls(urls, startIndex) {
     var endIndex = Math.min(startIndex + BATCH_SIZE, urls.length);
     for (var i = startIndex; i < endIndex; i++) {
-        shell.Run('cmd /c start "" "' + urls[i] + '"', 0, false);
+        shell.Run("rundll32 url.dll,FileProtocolHandler " + urls[i], 1, false);
         WScript.Sleep(300);
     }
     return endIndex;
