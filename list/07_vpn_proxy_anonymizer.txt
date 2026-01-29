@@ -1,0 +1,218 @@
+# ============================================================
+# VPN, PROXY & ANONYMIZER BLOCKLIST
+# Corporate DLP - Data Exfiltration Prevention
+# Generated: 2026-01-29
+# ============================================================
+# These services can bypass corporate security controls
+# ============================================================
+
+# ============================================================
+# MAJOR VPN PROVIDERS (Web Interfaces)
+# ============================================================
+nordvpn.com
+expressvpn.com
+surfshark.com
+cyberghostvpn.com
+privateinternetaccess.com
+ipvanish.com
+purevpn.com
+protonvpn.com
+mullvad.net
+windscribe.com
+hotspotshield.com
+tunnelbear.com
+hide.me
+hidemyass.com
+vyprvpn.com
+privatevpn.com
+atlasvpn.com
+torguard.net
+airvpn.org
+ovpn.com
+ivpn.net
+perfect-privacy.com
+zoogvpn.com
+astrill.com
+strongvpn.com
+zenmate.com
+safervpn.com
+cactus-vpn.com
+trust.zone
+betternet.co
+psiphon.ca
+
+# ============================================================
+# FREE VPN SERVICES
+# ============================================================
+freevpn.org
+freevpn.me
+vpngate.net
+openvpn.net
+softether.org
+freevpn4you.com
+vpnbook.com
+securitykiss.com
+proxysite.com
+vpnhub.com
+touchvpn.net
+urbanvpn.com
+1clickvpn.com
+setupvpn.com
+holavpn.com
+
+# ============================================================
+# WEB PROXY SERVICES
+# ============================================================
+kproxy.com
+proxfree.com
+filterbypass.me
+whoer.net/webproxy
+hidester.com/proxy
+proxysite.com
+hide.me/en/proxy
+vpnbook.com/webproxy
+croxyproxy.com
+plainproxy.com
+proxyscrape.com
+freeproxy.world
+spys.one
+free-proxy-list.net
+geonode.com/free-proxy-list
+proxylist.geonode.com
+4everproxy.com
+unblockvideos.com
+unblocksites.co
+unblockit.tv
+unblocked.lol
+unblocked.llc
+unblock.net
+zalmos.com
+anonymouse.org
+anonymizer.com
+megaproxy.com
+proxify.com
+webproxy.to
+webproxyserver.net
+sslproxy.org
+
+# ============================================================
+# TOR & ONION ROUTING
+# ============================================================
+torproject.org
+tails.boum.org
+whonix.org
+onion.live
+tor.taxi
+ahmia.fi
+onion.cab
+onion.link
+onion.ly
+onion.pet
+onion.sh
+onion.ws
+onion.nu
+tor2web.org
+tor2web.fi
+darknet.to
+dark.fail
+
+# ============================================================
+# DNS OVER HTTPS/TLS (Can bypass filtering)
+# ============================================================
+cloudflare-dns.com
+dns.cloudflare.com
+one.one.one.one
+dns.google
+dns.google.com
+doh.dns.sb
+dns.adguard.com
+dns.adguard-dns.com
+freedns.controld.com
+doh.cleanbrowsing.org
+doh.opendns.com
+dns.quad9.net
+nextdns.io
+dns.nextdns.io
+my.nextdns.io
+
+# ============================================================
+# SSH TUNNELING SERVICES
+# ============================================================
+serveo.net
+localhost.run
+ngrok.com
+ngrok.io
+localtunnel.me
+portmap.io
+pagekite.net
+forward.dev
+expose.dev
+telebit.cloud
+loophole.site
+localxpose.io
+local.lt
+webhook.site
+ultrahook.com
+smee.io
+
+# ============================================================
+# BROWSER EXTENSIONS (Landing Pages)
+# ============================================================
+# Note: These are the official sites for VPN/proxy extensions
+hola.org
+gom.vpnmentor.com
+setuptool.net
+
+# ============================================================
+# STEGANOGRAPHY & COVERT CHANNELS
+# ============================================================
+# Sites hosting steganography tools
+futureboy.us/stegano
+mobilefish.com/services/steganography
+stylesuxx.github.io/steganography
+incoherency.co.uk/image-steganography
+
+# ============================================================
+# ANONYMOUS HOSTING
+# ============================================================
+njal.la
+1984hosting.com
+orangewebsite.com
+shinjiru.com
+flokinet.is
+cockbox.org
+buyvm.net
+hostpapa.com/anonymous
+cryptostorm.is
+
+# ============================================================
+# ANTI-CENSORSHIP TOOLS
+# ============================================================
+getlantern.org
+getoutline.org
+outline.app
+psiphon3.com
+ultrasurf.us
+freegate.info
+jondonym.de
+anonymox.net
+geph.io
+goodbyedpi.io
+zapret.info
+antizapret.info
+
+# ============================================================
+# IP MASKING SERVICES
+# ============================================================
+whatismyipaddress.com/hide-ip
+ipleak.net
+ipleak.org
+dnsleaktest.com
+browserleaks.com
+whoer.net
+ifconfig.me
+icanhazip.com
+ipinfo.io
+ipify.org
+myip.com
+whatismyip.com

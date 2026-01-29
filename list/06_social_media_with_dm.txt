@@ -1,0 +1,255 @@
+# ============================================================
+# SOCIAL MEDIA WITH DIRECT MESSAGING BLOCKLIST
+# Corporate DLP - Data Exfiltration Prevention
+# Generated: 2026-01-29
+# ============================================================
+# These platforms have built-in messaging/sharing features
+# ============================================================
+
+# ============================================================
+# MAJOR GLOBAL SOCIAL NETWORKS
+# ============================================================
+facebook.com
+www.facebook.com
+m.facebook.com
+messenger.com
+fb.com
+fb.me
+instagram.com
+www.instagram.com
+twitter.com
+x.com
+mobile.twitter.com
+tweetdeck.twitter.com
+linkedin.com
+www.linkedin.com
+pinterest.com
+www.pinterest.com
+tumblr.com
+www.tumblr.com
+reddit.com
+www.reddit.com
+old.reddit.com
+new.reddit.com
+amp.reddit.com
+i.reddit.com
+tiktok.com
+www.tiktok.com
+snapchat.com
+www.snapchat.com
+
+# ============================================================
+# FEDERATED/DECENTRALIZED SOCIAL
+# ============================================================
+mastodon.social
+mastodon.online
+mastodon.world
+mastodon.art
+mstdn.social
+fosstodon.org
+hachyderm.io
+infosec.exchange
+joinmastodon.org
+pleroma.social
+misskey.io
+kbin.social
+lemmy.ml
+lemmy.world
+beehaw.org
+lemm.ee
+sh.itjust.works
+bluesky.app
+bsky.app
+threads.net
+nostr.band
+iris.to
+snort.social
+
+# ============================================================
+# KOREA (한국)
+# ============================================================
+band.us
+www.band.us
+m.band.us
+cafe.naver.com
+m.cafe.naver.com
+blog.naver.com
+post.naver.com
+story.kakao.com
+brunch.co.kr
+tistory.com
+
+# ============================================================
+# CHINA (中国)
+# ============================================================
+weibo.com
+weibo.cn
+t.sina.com.cn
+qzone.qq.com
+user.qzone.qq.com
+tieba.baidu.com
+zhihu.com
+douban.com
+xiaohongshu.com
+xhs.cn
+bilibili.com
+m.bilibili.com
+
+# ============================================================
+# JAPAN (日本)
+# ============================================================
+mixi.jp
+ameblo.jp
+note.com
+pixiv.net
+
+# ============================================================
+# RUSSIA (Россия)
+# ============================================================
+vk.com
+vk.me
+m.vk.com
+ok.ru
+m.ok.ru
+my.mail.ru
+dzen.ru
+
+# ============================================================
+# PROFESSIONAL/BUSINESS NETWORKS
+# ============================================================
+xing.com
+glassdoor.com
+indeed.com
+monster.com
+careerbuilder.com
+angelist.com
+wellfound.com
+hired.com
+toptal.com
+
+# ============================================================
+# CREATIVE/PORTFOLIO NETWORKS
+# ============================================================
+dribbble.com
+behance.net
+deviantart.com
+artstation.com
+flickr.com
+500px.com
+unsplash.com
+pexels.com
+vsco.co
+
+# ============================================================
+# DEVELOPER/TECH COMMUNITIES
+# ============================================================
+dev.to
+hashnode.com
+medium.com
+substack.com
+hackernoon.com
+producthunt.com
+news.ycombinator.com
+lobste.rs
+slashdot.org
+tildes.net
+spectrum.chat
+
+# ============================================================
+# Q&A / FORUM PLATFORMS WITH MESSAGING
+# ============================================================
+quora.com
+answers.yahoo.com
+stackexchange.com
+stackoverflow.com
+serverfault.com
+superuser.com
+askubuntu.com
+
+# ============================================================
+# VIDEO PLATFORMS WITH MESSAGING
+# ============================================================
+youtube.com
+www.youtube.com
+m.youtube.com
+studio.youtube.com
+twitch.tv
+www.twitch.tv
+m.twitch.tv
+kick.com
+dailymotion.com
+vimeo.com
+odysee.com
+rumble.com
+bitchute.com
+
+# ============================================================
+# GAMING SOCIAL PLATFORMS
+# ============================================================
+steamcommunity.com
+store.steampowered.com
+discord.gg
+discordapp.com
+guilded.gg
+epicgames.com
+origin.com
+gog.com
+xbox.com
+playstation.com
+nintendo.com
+twitch.tv
+
+# ============================================================
+# DATING/SOCIAL DISCOVERY
+# ============================================================
+tinder.com
+bumble.com
+hinge.co
+match.com
+okcupid.com
+pof.com
+badoo.com
+meetup.com
+grindr.com
+scruff.com
+her.app
+happn.com
+coffee.com
+
+# ============================================================
+# INTEREST-BASED COMMUNITIES
+# ============================================================
+goodreads.com
+letterboxd.com
+trakt.tv
+last.fm
+discogs.com
+rateyourmusic.com
+ravelry.com
+nextdoor.com
+strava.com
+alltrails.com
+untappd.com
+
+# ============================================================
+# REGIONAL SOCIAL NETWORKS
+# ============================================================
+# India
+sharechat.com
+moj.app
+kooapp.com
+
+# Brazil
+kwai.com
+
+# Vietnam
+gapo.vn
+
+# Indonesia
+path.com
+
+# Turkey
+eksisozluk.com
+
+# Middle East
+clubhouse.com

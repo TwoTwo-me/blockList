@@ -1,0 +1,183 @@
+# ============================================================
+# PASTEBIN & CODE SHARING BLOCKLIST
+# Corporate DLP - Data Exfiltration Prevention
+# Generated: 2026-01-29
+# ============================================================
+# These services allow anonymous text/code sharing
+# ============================================================
+
+# ============================================================
+# MAJOR PASTEBIN SERVICES
+# ============================================================
+pastebin.com
+paste.ee
+paste.org
+paste.mozilla.org
+paste2.org
+paste.opensuse.org
+paste.centos.org
+paste.ubuntu.com
+paste.debian.net
+paste.fedoraproject.org
+paste.kde.org
+paste.gnome.org
+paste.xinu.at
+paste.pound-python.org
+paste.lisp.org
+paste.pocoo.org
+paste.ofcode.org
+paste.scratchbook.ch
+paste.rohitab.com
+pastecode.io
+pastecode.xyz
+
+# ============================================================
+# ENCRYPTED/ANONYMOUS PASTEBIN
+# ============================================================
+privatebin.io
+privatebin.net
+privatebin.org
+privatebin.info
+0bin.net
+cryptbin.com
+ghostbin.co
+ghostbin.com
+anonpaste.org
+anonpaste.io
+zerobin.net
+hastebin.com
+hasteb.in
+toptal.com/developers/hastebin
+haste.zneix.eu
+rentry.co
+rentry.org
+
+# ============================================================
+# DEVELOPER CODE SHARING
+# ============================================================
+# gist.github.com
+# gitlab.com/snippets
+bitbucket.org/snippets
+codepen.io
+jsfiddle.net
+jsbin.com
+codesandbox.io
+stackblitz.com
+repl.it
+replit.com
+glitch.com
+runkit.com
+codepad.org
+ideone.com
+wandbox.org
+godbolt.org
+tio.run
+onlinegdb.com
+tutorialspoint.com/codingground
+programiz.com/compiler
+jdoodle.com
+
+# ============================================================
+# TEXT SHARING SERVICES
+# ============================================================
+justpaste.it
+justpaste.me
+justpasteit.org
+textbin.net
+pasteall.org
+paste.ee
+dpaste.com
+dpaste.org
+dpaste.de
+sprunge.us
+termbin.com
+clbin.com
+ix.io
+ptpb.pw
+p.ip.fi
+vpaste.net
+fpaste.org
+bpaste.net
+lpaste.net
+kpaste.net
+defuse.ca/pastebin
+pastie.org
+paste.rs
+paste.sh
+paste.gg
+paste.myst.rs
+
+# ============================================================
+# MODERN PASTE ALTERNATIVES
+# ============================================================
+octopaste.io
+onlinepaste.com
+pastefree.net
+controlc.com
+pastebin.pl
+pastebin.fi
+pastebin.fr
+pastebin.ca
+nopaste.me
+nopaste.net
+nopaste.linux-dev.org
+snipboard.io
+quickhighlighter.com
+
+# ============================================================
+# SELF-HOSTED PASTE SOLUTIONS (Public Instances)
+# ============================================================
+paste.nginx.org
+paste.apache.org
+paste.osuosl.org
+paste.opensuse.org
+paste.dn42.us
+pb.nichi.co
+paste.sr.ht
+p.teknik.io
+paste.frubar.net
+paste.tomsmeding.com
+vpaste.net
+paste.chapril.org
+p.devbin.io
+p.ip.fi
+paste.c-net.org
+paste.linux-dev.org
+
+# ============================================================
+# SNIPPET MANAGERS WITH SHARING
+# ============================================================
+snipplr.com
+snipt.net
+snippets.glot.io
+codeshare.io
+carbon.now.sh
+ray.so
+chalk.ist
+showcode.app
+sourcecodeshots.com
+snappify.com
+
+# ============================================================
+# NOTE/TEXT SHARING
+# ============================================================
+pastelink.net
+txt.fyi
+protectedtext.com
+cryptobin.co
+safebin.pw
+bin.shortbin.eu
+paste.c-net.org
+write.as
+telegra.ph
+txt.fyi
+riseup.net/paste
+paste.riseup.net
+share.riseup.net
+cryptpad.fr
+cryptpad.io
+yopad.eu
+pad.riseup.net
+board.net
+framapad.org
+etherpad.org

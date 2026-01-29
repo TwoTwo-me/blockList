@@ -1,0 +1,139 @@
+# ============================================================
+# REMOTE ACCESS & SCREEN SHARING BLOCKLIST
+# Corporate DLP - Data Exfiltration Prevention
+# Generated: 2026-01-29
+# ============================================================
+# These services allow remote file transfer & screen access
+# ============================================================
+
+# ============================================================
+# MAJOR REMOTE DESKTOP SERVICES
+# ============================================================
+teamviewer.com
+www.teamviewer.com
+get.teamviewer.com
+anydesk.com
+download.anydesk.com
+parsec.app
+parsecgaming.com
+remotedesktop.google.com
+chrome.google.com/remotedesktop
+splashtop.com
+my.splashtop.com
+logmein.com
+secure.logmein.com
+join.me
+gotomypc.com
+getgo.com
+bomgar.com
+beyondtrust.com
+connectwise.com
+screenconnect.com
+zoho.com/assist
+assist.zoho.com
+meshcentral.com
+rustdesk.com
+deskreen.com
+supremo.me
+lite.supremo.me
+mikogo.com
+iperius.com
+ultraviewer.net
+aweray.com
+ammyy.com
+
+# ============================================================
+# BROWSER-BASED REMOTE ACCESS
+# ============================================================
+dead.gg
+remote.it
+apache-guacamole.org
+guacamole.apache.org
+myrtille.fr
+cloudamqp.com
+shells.com
+wetty.io
+
+# ============================================================
+# SCREEN SHARING SERVICES
+# ============================================================
+screenleap.com
+screencast-o-matic.com
+loom.com
+www.loom.com
+appear.in
+whereby.com
+around.co
+pop.com
+tuple.app
+screen.so
+use.fathom.video
+vowel.com
+grain.com
+tl.dv
+otter.ai
+fireflies.ai
+fathom.video
+
+# ============================================================
+# FILE TRANSFER BUILT INTO REMOTE ACCESS
+# ============================================================
+# Most remote access tools above include file transfer
+winscp.net
+filezilla-project.org
+bitvise.com
+putty.org
+mobaxterm.mobatek.net
+securecrt.vandyke.com
+termius.com
+tabby.sh
+
+# ============================================================
+# CLOUD-BASED DEVELOPMENT ENVIRONMENTS
+# ============================================================
+# These provide remote access to development machines
+gitpod.io
+github.dev
+vscode.dev
+github.com/codespaces
+codespaces.new
+idx.dev
+stackblitz.com
+codesandbox.io
+repl.it
+replit.com
+glitch.com
+gitpod.io
+goorm.io
+cocalc.com
+jupyter.org
+colab.research.google.com
+kaggle.com/notebooks
+mybinder.org
+deepnote.com
+datalore.jetbrains.com
+
+# ============================================================
+# SSH WEB CLIENTS
+# ============================================================
+sshreach.me
+shellngn.com
+webssh.net
+gateone.com
+
+# ============================================================
+# REMOTE WORK PLATFORMS
+# ============================================================
+# While legitimate, can transfer files
+citrix.com
+cloud.citrix.com
+vmware.com
+horizon.vmware.com
+aws.amazon.com/workspaces
+workspaces.aws
+azure.microsoft.com/virtual-desktop
+windows365.microsoft.com
+frame.nutanix.com
+neverinstall.com
+shells.com
+kasm.io
