@@ -6,7 +6,9 @@
 var fso = new ActiveXObject("Scripting.FileSystemObject");
 var shell = new ActiveXObject("WScript.Shell");
 
-var BLOCKED_MESSAGE = "접근할 수 없는 사이트 입니다.";
+var BLOCKED_MESSAGES = [
+    "접근할 수 없는 사이트 입니다."
+];
 var LIST_FOLDER = "list";
 var RESULT_FOLDER = "result";
 var TIMEOUT_MS = 10000;
@@ -82,11 +84,13 @@ function checkUrl(url) {
                 responseText = xhr.responseText;
             } catch (e) {}
             
-            // Check for blocked message
-            if (responseText.indexOf(BLOCKED_MESSAGE) !== -1) {
-                result.blocked = true;
-                result.error = BLOCKED_MESSAGE;
-                return result;
+            // Check for blocked messages
+            for (var j = 0; j < BLOCKED_MESSAGES.length; j++) {
+                if (responseText.indexOf(BLOCKED_MESSAGES[j]) !== -1) {
+                    result.blocked = true;
+                    result.error = BLOCKED_MESSAGES[j];
+                    return result;
+                }
             }
             
             // Handle redirects (301, 302, 303, 307, 308)
