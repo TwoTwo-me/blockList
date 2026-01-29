@@ -195,6 +195,7 @@ function main() {
         
         // Skip non-txt files
         if (fileName.toLowerCase().indexOf(".txt") === -1) continue;
+        if (fileName.charAt(0) === "_") continue;
         
         var categoryName = fileName.replace(/\.txt$/i, "");
         WScript.Echo("[CHECKING] " + fileName);

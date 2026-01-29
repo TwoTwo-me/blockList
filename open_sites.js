@@ -55,6 +55,7 @@ function main() {
     for (; !files.atEnd(); files.moveNext()) {
         var file = files.item();
         if (file.Name.toLowerCase().indexOf(".txt") === -1) continue;
+        if (file.Name.charAt(0) === "_") continue;
         
         WScript.Echo("[LOADING] " + file.Name);
         var urls = parseUrlsFromFile(file.Path);
