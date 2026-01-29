@@ -34,9 +34,9 @@ function openUrls(urls, startIndex) {
     var endIndex = Math.min(startIndex + BATCH_SIZE, urls.length);
     var urlArgs = "";
     for (var i = startIndex; i < endIndex; i++) {
-        urlArgs += ' "' + urls[i] + '"';
+        urlArgs += " " + urls[i];
     }
-    shell.Run('"' + CHROME_PATH + '"' + urlArgs);
+    shell.Run('"' + CHROME_PATH + '" --new-window' + urlArgs);
     return endIndex;
 }
 
