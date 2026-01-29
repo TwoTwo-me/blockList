@@ -28,15 +28,12 @@ function parseUrlsFromFile(filePath) {
     return urls;
 }
 
-var CHROME_PATH = "C:\\Program Files\\Google\\Chrome\\Application\\chrome.exe";
-
 function openUrls(urls, startIndex) {
     var endIndex = Math.min(startIndex + BATCH_SIZE, urls.length);
-    var urlArgs = "";
     for (var i = startIndex; i < endIndex; i++) {
-        urlArgs += " " + urls[i];
+        shell.Run('cmd /c start chrome "' + urls[i] + '"', 0, false);
+        WScript.Sleep(500);
     }
-    shell.Run('"' + CHROME_PATH + '" --new-window' + urlArgs);
     return endIndex;
 }
 
